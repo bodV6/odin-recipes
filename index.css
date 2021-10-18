@@ -1,0 +1,26 @@
+body {
+  border: 0;
+  margin: 20px;
+  font-family: "Lucida Handwriting", "Courier New", Arial;
+  font-size: 18px;
+  background-color: #9c9090;
+}
+
+h1 {
+  color: #f9f3c3;
+  text-align: center;
+}
+h1 span {
+  color: #fda9a9;
+}
+h3 {
+  text-align: center;
+}
+.style {
+  font-style: italic;
+  color: red;
+} 
+
+ul{
+  background-color: blue;
+}
