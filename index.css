@@ -1,9 +1,12 @@
+
 body {
   border: 0;
   margin: 20px;
   font-family: "Lucida Handwriting", "Courier New", Arial;
   font-size: 18px;
-  background-color: #9c9090;
+  /* background-color: #9c9090; */
+  background: var(--body-bg);
+  color: var(--body-color);
 }
 
 h1 {
@@ -23,4 +26,20 @@ h3 {
 
 ul{
   background-color: blue;
+}
+
+/* Light mode */
+@media (prefers-color-scheme: light) {
+   :root {
+       --body-bg: #FFFFFF;
+       --body-color: #000000;
+   }
+}
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+   :root {
+       --body-bg: #000000;
+       --body-color: #FFFFFF;
+   }
 }
